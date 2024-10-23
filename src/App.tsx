@@ -1,5 +1,4 @@
-import LinkedInPost from './linkedin-post';
-import './App.css';
+import LinkedInPost from './components/linkedin-post';
 
 function App() {
   return <LinkedInPost />;

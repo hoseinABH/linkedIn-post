@@ -1,0 +1,27 @@
+:root {
+  --background: #000;
+  --text: rgb(255 255 255/0.9);
+  --muted-text: rgb(255 255 255 / 0.6);
+  --button-text: rgb(255 255 255/0.75);
+  --button-text-active: rgb(140 140 140/0.15);
+  --light-border: rgb(140 140 140/0.25);
+  --card-bg: #1b1f23;
+  --card-border: #23282e;
+  --text-action: #71b7fb;
+  --rounded: 0.8rem;
+  --fontFamily: 'Noto Sans', sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #f4f2ee;
+    --text: rgb(0 0 0/0.9);
+    --muted-text: rgb(0 0 0/0.6);
+    --button-text: rgb(0 0 0/0.75);
+    --button-text-active: rgb(140 140 140/0.15);
+    --light-border: rgb(140 140 140/0.25);
+    --card-bg: #ffff;
+    --card-border: #dfdeda;
+    --text-action: #0a66c2;
+  }
+}
